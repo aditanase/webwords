@@ -23,7 +23,7 @@ object BuildSettings {
 }
 
 object Resolvers {
-    val sonatypeRepo = "Sonatype Release" at "http://oss.sonatype.org/content/repositories/releases"
+    val sonatypeRepo = "Sonatype Release" at "https://oss.sonatype.org/content/repositories/releases"
     val jbossRepo = "JBoss" at "http://repository.jboss.org/nexus/content/groups/public/"
     val akkaRepo = "Akka" at "http://repo.akka.io/repository/"
 }
